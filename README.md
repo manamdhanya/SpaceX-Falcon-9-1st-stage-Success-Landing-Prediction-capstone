@@ -6,8 +6,8 @@ Predict whether the first stage of SpaceX Falcon 9 will land successfully after 
 #### Project Structure:
 
 1. Data Collection and Wrangling:
-   - Utilize web scraping and RESTful APIs to collect launch data.
    - Convert JSON data into a Pandas DataFrame for analysis.
+   - Utilize web scraping and RESTful APIs to collect launch data.
    - Clean the data by handling missing values and filtering relevant features.
 
 2. Exploratory Data Analysis (EDA):
