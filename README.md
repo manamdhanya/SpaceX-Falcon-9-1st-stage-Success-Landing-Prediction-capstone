@@ -5,28 +5,28 @@ Predict whether the first stage of SpaceX Falcon 9 will land successfully after 
 
 #### Project Structure:
 
-1. Data Collection and Wrangling:**
+1. Data Collection and Wrangling:
    - Utilize web scraping and RESTful APIs to collect launch data.
    - Convert JSON data into a Pandas DataFrame for analysis.
    - Clean the data by handling missing values and filtering relevant features.
 
-2. Exploratory Data Analysis (EDA):**
+2. Exploratory Data Analysis (EDA):
    - Perform EDA to understand the distribution and relationships in the data.
    - Visualize data using scatter plots, bar charts, and interactive plots with Plotly Dash.
    - Identify patterns and correlations that may influence the success of landings.
 
-3. Interactive Visual Analytics and Dashboards:**
+3. Interactive Visual Analytics and Dashboards:
    - Build an interactive dashboard using Plotly Dash to analyze launch records.
    - Include pie charts, scatter plots, and other visualizations to explore data insights.
    - Use Folium to create an interactive map to analyze launch site proximity.
 
-4. Predictive Analysis (Classification):**
+4. Predictive Analysis (Classification):
    - Split the data into training and testing sets.
    - Train and evaluate different classification models such as SVM, Decision Trees, and Logistic Regression.
    - Perform hyperparameter tuning using grid search to optimize model performance.
    - Select the best-performing model based on evaluation metrics.
 
-5. Deployment and Documentation:**
+5. Deployment and Documentation:
    - Create a README file to document the project including:
      - Project overview and objectives.
      - Steps to reproduce the analysis.
